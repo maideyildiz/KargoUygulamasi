@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApp1.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AdresTableAdapter" GeneratorDataComponentClassName="AdresTableAdapter" Name="Adres" UserDataComponentName="AdresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.Adres" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "acikAdres" FROM "public"."Adres"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="acikAdres" DataSetColumn="acikAdres" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FaturaTurTableAdapter" GeneratorDataComponentClassName="FaturaTurTableAdapter" Name="FaturaTur" UserDataComponentName="FaturaTurTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.FaturaTur" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "faturaTipi" FROM "public"."FaturaTur"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="faturaTipi" DataSetColumn="faturaTipi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GonderenKisiTableAdapter" GeneratorDataComponentClassName="GonderenKisiTableAdapter" Name="GonderenKisi" UserDataComponentName="GonderenKisiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.GonderenKisi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "kargoVerisTarihi" FROM "public"."GonderenKisi"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kargoVerisTarihi" DataSetColumn="kargoVerisTarihi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IlAdiTableAdapter" GeneratorDataComponentClassName="IlAdiTableAdapter" Name="IlAdi" UserDataComponentName="IlAdiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.IlAdi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "ilAdi" FROM "public"."IlAdi"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ilAdi" DataSetColumn="ilAdi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IlceTableAdapter" GeneratorDataComponentClassName="IlceTableAdapter" Name="Ilce" UserDataComponentName="IlceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.Ilce" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "ilceAdi" FROM "public"."Ilce"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ilceAdi" DataSetColumn="ilceAdi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IletisimBilgileriTableAdapter" GeneratorDataComponentClassName="IletisimBilgileriTableAdapter" Name="IletisimBilgileri" UserDataComponentName="IletisimBilgileriTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.IletisimBilgileri" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "eposta", "tel" FROM "public"."IletisimBilgileri"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="eposta" DataSetColumn="eposta" />
+              <Mapping SourceColumn="tel" DataSetColumn="tel" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KargoTableAdapter" GeneratorDataComponentClassName="KargoTableAdapter" Name="Kargo" UserDataComponentName="KargoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.Kargo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "barkodNo", "kargoCikis", "kargoTeslim", "faturaSekli", "fiyat", "kargoNerede" FROM "public"."Kargo"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="barkodNo" DataSetColumn="barkodNo" />
+              <Mapping SourceColumn="kargoCikis" DataSetColumn="kargoCikis" />
+              <Mapping SourceColumn="kargoTeslim" DataSetColumn="kargoTeslim" />
+              <Mapping SourceColumn="faturaSekli" DataSetColumn="faturaSekli" />
+              <Mapping SourceColumn="fiyat" DataSetColumn="fiyat" />
+              <Mapping SourceColumn="kargoNerede" DataSetColumn="kargoNerede" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KargoOlcuTableAdapter" GeneratorDataComponentClassName="KargoOlcuTableAdapter" Name="KargoOlcu" UserDataComponentName="KargoOlcuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.KargoOlcu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "en", "boy", "kg" FROM "public"."KargoOlcu"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="en" DataSetColumn="en" />
+              <Mapping SourceColumn="boy" DataSetColumn="boy" />
+              <Mapping SourceColumn="kg" DataSetColumn="kg" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KisiTableAdapter" GeneratorDataComponentClassName="KisiTableAdapter" Name="Kisi" UserDataComponentName="KisiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.Kisi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "ad", "soyad" FROM "public"."Kisi"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ad" DataSetColumn="ad" />
+              <Mapping SourceColumn="soyad" DataSetColumn="soyad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KuryeTableAdapter" GeneratorDataComponentClassName="KuryeTableAdapter" Name="Kurye" UserDataComponentName="KuryeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="KargoUygulamasi.Kurye" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "kuryeNo" FROM "public"."Kurye"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kuryeNo" DataSetColumn="kuryeNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Adres" msprop:Generator_TableClassName="AdresDataTable" msprop:Generator_TableVarName="tableAdres" msprop:Generator_TablePropName="Adres" msprop:Generator_RowDeletingName="AdresRowDeleting" msprop:Generator_RowChangingName="AdresRowChanging" msprop:Generator_RowEvHandlerName="AdresRowChangeEventHandler" msprop:Generator_RowDeletedName="AdresRowDeleted" msprop:Generator_UserTableName="Adres" msprop:Generator_RowChangedName="AdresRowChanged" msprop:Generator_RowEvArgName="AdresRowChangeEvent" msprop:Generator_RowClassName="AdresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="acikAdres" msprop:Generator_ColumnVarNameInTable="columnacikAdres" msprop:Generator_ColumnPropNameInRow="acikAdres" msprop:Generator_ColumnPropNameInTable="acikAdresColumn" msprop:Generator_UserColumnName="acikAdres">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FaturaTur" msprop:Generator_TableClassName="FaturaTurDataTable" msprop:Generator_TableVarName="tableFaturaTur" msprop:Generator_TablePropName="FaturaTur" msprop:Generator_RowDeletingName="FaturaTurRowDeleting" msprop:Generator_RowChangingName="FaturaTurRowChanging" msprop:Generator_RowEvHandlerName="FaturaTurRowChangeEventHandler" msprop:Generator_RowDeletedName="FaturaTurRowDeleted" msprop:Generator_UserTableName="FaturaTur" msprop:Generator_RowChangedName="FaturaTurRowChanged" msprop:Generator_RowEvArgName="FaturaTurRowChangeEvent" msprop:Generator_RowClassName="FaturaTurRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="faturaTipi" msprop:Generator_ColumnVarNameInTable="columnfaturaTipi" msprop:Generator_ColumnPropNameInRow="faturaTipi" msprop:Generator_ColumnPropNameInTable="faturaTipiColumn" msprop:Generator_UserColumnName="faturaTipi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GonderenKisi" msprop:Generator_TableClassName="GonderenKisiDataTable" msprop:Generator_TableVarName="tableGonderenKisi" msprop:Generator_TablePropName="GonderenKisi" msprop:Generator_RowDeletingName="GonderenKisiRowDeleting" msprop:Generator_RowChangingName="GonderenKisiRowChanging" msprop:Generator_RowEvHandlerName="GonderenKisiRowChangeEventHandler" msprop:Generator_RowDeletedName="GonderenKisiRowDeleted" msprop:Generator_UserTableName="GonderenKisi" msprop:Generator_RowChangedName="GonderenKisiRowChanged" msprop:Generator_RowEvArgName="GonderenKisiRowChangeEvent" msprop:Generator_RowClassName="GonderenKisiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kargoVerisTarihi" msprop:Generator_ColumnVarNameInTable="columnkargoVerisTarihi" msprop:Generator_ColumnPropNameInRow="kargoVerisTarihi" msprop:Generator_ColumnPropNameInTable="kargoVerisTarihiColumn" msprop:Generator_UserColumnName="kargoVerisTarihi" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IlAdi" msprop:Generator_TableClassName="IlAdiDataTable" msprop:Generator_TableVarName="tableIlAdi" msprop:Generator_TablePropName="IlAdi" msprop:Generator_RowDeletingName="IlAdiRowDeleting" msprop:Generator_RowChangingName="IlAdiRowChanging" msprop:Generator_RowEvHandlerName="IlAdiRowChangeEventHandler" msprop:Generator_RowDeletedName="IlAdiRowDeleted" msprop:Generator_UserTableName="IlAdi" msprop:Generator_RowChangedName="IlAdiRowChanged" msprop:Generator_RowEvArgName="IlAdiRowChangeEvent" msprop:Generator_RowClassName="IlAdiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ilAdi" msprop:Generator_ColumnVarNameInTable="columnilAdi" msprop:Generator_ColumnPropNameInRow="ilAdi" msprop:Generator_ColumnPropNameInTable="ilAdiColumn" msprop:Generator_UserColumnName="ilAdi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ilce" msprop:Generator_TableClassName="IlceDataTable" msprop:Generator_TableVarName="tableIlce" msprop:Generator_TablePropName="Ilce" msprop:Generator_RowDeletingName="IlceRowDeleting" msprop:Generator_RowChangingName="IlceRowChanging" msprop:Generator_RowEvHandlerName="IlceRowChangeEventHandler" msprop:Generator_RowDeletedName="IlceRowDeleted" msprop:Generator_UserTableName="Ilce" msprop:Generator_RowChangedName="IlceRowChanged" msprop:Generator_RowEvArgName="IlceRowChangeEvent" msprop:Generator_RowClassName="IlceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ilceAdi" msprop:Generator_ColumnVarNameInTable="columnilceAdi" msprop:Generator_ColumnPropNameInRow="ilceAdi" msprop:Generator_ColumnPropNameInTable="ilceAdiColumn" msprop:Generator_UserColumnName="ilceAdi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IletisimBilgileri" msprop:Generator_TableClassName="IletisimBilgileriDataTable" msprop:Generator_TableVarName="tableIletisimBilgileri" msprop:Generator_TablePropName="IletisimBilgileri" msprop:Generator_RowDeletingName="IletisimBilgileriRowDeleting" msprop:Generator_RowChangingName="IletisimBilgileriRowChanging" msprop:Generator_RowEvHandlerName="IletisimBilgileriRowChangeEventHandler" msprop:Generator_RowDeletedName="IletisimBilgileriRowDeleted" msprop:Generator_UserTableName="IletisimBilgileri" msprop:Generator_RowChangedName="IletisimBilgileriRowChanged" msprop:Generator_RowEvArgName="IletisimBilgileriRowChangeEvent" msprop:Generator_RowClassName="IletisimBilgileriRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="eposta" msprop:Generator_ColumnVarNameInTable="columneposta" msprop:Generator_ColumnPropNameInRow="eposta" msprop:Generator_ColumnPropNameInTable="epostaColumn" msprop:Generator_UserColumnName="eposta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tel" msprop:Generator_ColumnVarNameInTable="columntel" msprop:Generator_ColumnPropNameInRow="tel" msprop:Generator_ColumnPropNameInTable="telColumn" msprop:Generator_UserColumnName="tel" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kargo" msprop:Generator_TableClassName="KargoDataTable" msprop:Generator_TableVarName="tableKargo" msprop:Generator_TablePropName="Kargo" msprop:Generator_RowDeletingName="KargoRowDeleting" msprop:Generator_RowChangingName="KargoRowChanging" msprop:Generator_RowEvHandlerName="KargoRowChangeEventHandler" msprop:Generator_RowDeletedName="KargoRowDeleted" msprop:Generator_UserTableName="Kargo" msprop:Generator_RowChangedName="KargoRowChanged" msprop:Generator_RowEvArgName="KargoRowChangeEvent" msprop:Generator_RowClassName="KargoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="barkodNo" msprop:Generator_ColumnVarNameInTable="columnbarkodNo" msprop:Generator_ColumnPropNameInRow="barkodNo" msprop:Generator_ColumnPropNameInTable="barkodNoColumn" msprop:Generator_UserColumnName="barkodNo" type="xs:int" />
+              <xs:element name="kargoCikis" msprop:Generator_ColumnVarNameInTable="columnkargoCikis" msprop:Generator_ColumnPropNameInRow="kargoCikis" msprop:Generator_ColumnPropNameInTable="kargoCikisColumn" msprop:Generator_UserColumnName="kargoCikis" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="kargoTeslim" msprop:Generator_ColumnVarNameInTable="columnkargoTeslim" msprop:Generator_ColumnPropNameInRow="kargoTeslim" msprop:Generator_ColumnPropNameInTable="kargoTeslimColumn" msprop:Generator_UserColumnName="kargoTeslim" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="faturaSekli" msprop:Generator_ColumnVarNameInTable="columnfaturaSekli" msprop:Generator_ColumnPropNameInRow="faturaSekli" msprop:Generator_ColumnPropNameInTable="faturaSekliColumn" msprop:Generator_UserColumnName="faturaSekli" type="xs:int" minOccurs="0" />
+              <xs:element name="fiyat" msprop:Generator_ColumnVarNameInTable="columnfiyat" msprop:Generator_ColumnPropNameInRow="fiyat" msprop:Generator_ColumnPropNameInTable="fiyatColumn" msprop:Generator_UserColumnName="fiyat" type="xs:int" minOccurs="0" />
+              <xs:element name="kargoNerede" msprop:Generator_ColumnVarNameInTable="columnkargoNerede" msprop:Generator_ColumnPropNameInRow="kargoNerede" msprop:Generator_ColumnPropNameInTable="kargoNeredeColumn" msprop:Generator_UserColumnName="kargoNerede" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KargoOlcu" msprop:Generator_TableClassName="KargoOlcuDataTable" msprop:Generator_TableVarName="tableKargoOlcu" msprop:Generator_TablePropName="KargoOlcu" msprop:Generator_RowDeletingName="KargoOlcuRowDeleting" msprop:Generator_RowChangingName="KargoOlcuRowChanging" msprop:Generator_RowEvHandlerName="KargoOlcuRowChangeEventHandler" msprop:Generator_RowDeletedName="KargoOlcuRowDeleted" msprop:Generator_UserTableName="KargoOlcu" msprop:Generator_RowChangedName="KargoOlcuRowChanged" msprop:Generator_RowEvArgName="KargoOlcuRowChangeEvent" msprop:Generator_RowClassName="KargoOlcuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="en" msprop:Generator_ColumnVarNameInTable="columnen" msprop:Generator_ColumnPropNameInRow="en" msprop:Generator_ColumnPropNameInTable="enColumn" msprop:Generator_UserColumnName="en" type="xs:int" minOccurs="0" />
+              <xs:element name="boy" msprop:Generator_ColumnVarNameInTable="columnboy" msprop:Generator_ColumnPropNameInRow="boy" msprop:Generator_ColumnPropNameInTable="boyColumn" msprop:Generator_UserColumnName="boy" type="xs:int" minOccurs="0" />
+              <xs:element name="kg" msprop:Generator_ColumnVarNameInTable="columnkg" msprop:Generator_ColumnPropNameInRow="kg" msprop:Generator_ColumnPropNameInTable="kgColumn" msprop:Generator_UserColumnName="kg" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kisi" msprop:Generator_TableClassName="KisiDataTable" msprop:Generator_TableVarName="tableKisi" msprop:Generator_TablePropName="Kisi" msprop:Generator_RowDeletingName="KisiRowDeleting" msprop:Generator_RowChangingName="KisiRowChanging" msprop:Generator_RowEvHandlerName="KisiRowChangeEventHandler" msprop:Generator_RowDeletedName="KisiRowDeleted" msprop:Generator_UserTableName="Kisi" msprop:Generator_RowChangedName="KisiRowChanged" msprop:Generator_RowEvArgName="KisiRowChangeEvent" msprop:Generator_RowClassName="KisiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ad" msprop:Generator_ColumnVarNameInTable="columnad" msprop:Generator_ColumnPropNameInRow="ad" msprop:Generator_ColumnPropNameInTable="adColumn" msprop:Generator_UserColumnName="ad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="soyad" msprop:Generator_ColumnVarNameInTable="columnsoyad" msprop:Generator_ColumnPropNameInRow="soyad" msprop:Generator_ColumnPropNameInTable="soyadColumn" msprop:Generator_UserColumnName="soyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kurye" msprop:Generator_TableClassName="KuryeDataTable" msprop:Generator_TableVarName="tableKurye" msprop:Generator_TablePropName="Kurye" msprop:Generator_RowDeletingName="KuryeRowDeleting" msprop:Generator_RowChangingName="KuryeRowChanging" msprop:Generator_RowEvHandlerName="KuryeRowChangeEventHandler" msprop:Generator_RowDeletedName="KuryeRowDeleted" msprop:Generator_UserTableName="Kurye" msprop:Generator_RowChangedName="KuryeRowChanged" msprop:Generator_RowEvArgName="KuryeRowChangeEvent" msprop:Generator_RowClassName="KuryeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kuryeNo" msprop:Generator_ColumnVarNameInTable="columnkuryeNo" msprop:Generator_ColumnPropNameInRow="kuryeNo" msprop:Generator_ColumnPropNameInTable="kuryeNoColumn" msprop:Generator_UserColumnName="kuryeNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Adres" />
+      <xs:field xpath="mstns:acikAdres" />
+    </xs:unique>
+    <xs:unique name="IlAdi_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IlAdi" />
+      <xs:field xpath="mstns:ilAdi" />
+    </xs:unique>
+    <xs:unique name="Ilce_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Ilce" />
+      <xs:field xpath="mstns:ilceAdi" />
+    </xs:unique>
+    <xs:unique name="IletisimBilgileri_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IletisimBilgileri" />
+      <xs:field xpath="mstns:tel" />
+    </xs:unique>
+    <xs:unique name="Kargo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Kargo" />
+      <xs:field xpath="mstns:barkodNo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
